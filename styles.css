@@ -1,0 +1,185 @@
+body{
+    background-color: lightblue;
+    color: darkblue;
+    text-align: center;
+    }
+button{
+    background-color: rgb(53, 240, 100);
+    color: rgb(6, 82, 12);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+   }
+h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        text-align: center;
+    }   
+p{
+    font-family: georgia, serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+}  
+h3{
+  font-family: georgia, serif;
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+
+  /*ngj*/
+
+  .container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: rgb(74, 206, 22);
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content:end;
+    width: 100%;
+  }
+  
+  
+  .brand {
+    display: flex;
+    align-items:start;
+  }
+  
+  
+  li>a {
+    padding: 8px, 200px;
+  }
+  
+  
+  li {
+    list-style-type:none; /*Vinetas de la lista */
+  }
+  
+  
+  a {
+    color: rgb(238, 8, 8); /*Color de la letra*/
+    text-decoration:underline; /*Subrayar, tachar, etc. */
+    font-family: Arial, Helvetica, sans-serif; /*Tipo de fuente */
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    align-items:last baseline;
+  }
+  
+  
+  .button-menu-toggle {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+  
+    .nav-links {
+      display: none;
+    }
+  
+  
+    .button-menu-toggle {
+      display:block;
+      background-color: white;
+      border: 30px;
+      border-color: black;
+      border-radius: 200px;
+      padding: 0 24px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+    }
+   
+    .nav-links.nav-links-responsive { /*Cambia la lista para la presentacion de celular */
+      position: absolute;
+      display: flex;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction:column;
+      padding-top: 200px;
+      align-items: center;
+      gap:20px;
+      font-size: 40px;
+  
+  
+    }
+  }
+
+.containerimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200;
+}
+
+.Imagen1 {
+  align-self: flex-start;
+  width: 300px;
+  height: 200px;
+}
+
+.Imagen2 {
+  align-self: center;
+  width: 300px;
+  height: 200px;
+}
+
+.Imagen3 {
+  align-self: flex-end;
+  width: 300px;
+  height: 200px;
+}
+
+.footer1 {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+}
+
+.sueno {
+  align-self: center;
+}
+
+.Alicia {
+  align-self: center;
+}
