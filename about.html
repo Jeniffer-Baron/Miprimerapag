@@ -5,18 +5,21 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-        <div class="container-nav">
-            <nav class="navbar" role="navigation"> <!--nav Elemento para poner un conjunto de links-->
-                <a href="mi-primer-website.html" class="brand">Mi página web</a> <!--a pone link a un texto-->
-                <ul class="nav-links"> <!--ul Crea un lista no ordenada-->
-                  <li><a href="mi-primer-website.html">Inicio</a></li> <!--li Elemento de la lista, contiene links (a)-->
-                  <li><a href="about.html">Acerca de</a></li>
-                  <li><a href="services.html">Servicios</a></li>
-                  <li><a href="Contact.html">Contactanos</a></li>
-                </ul>
-              </nav>
-            <button class="button-menu-toggle">Menu</button>
-          </div>
+        <header class="container-nav">
+            <div class="container-nav">
+                <nav class="navbar" role="navigation"> <!--nav Elemento para poner un conjunto de links-->
+                    <a href="index.html" class="brand">Mi página web</a> <!--a pone link a un texto-->
+                    <ul class="nav-links"> <!--ul Crea un lista no ordenada-->
+                      <li><a href="index.html">Inicio</a></li> <!--li Elemento de la lista, contiene links (a)-->
+                      <li><a href="about.html">Acerca de</a></li>
+                      <li><a href="services.html">Servicios</a></li>
+                      <li><a href="Contact.html">Contactanos</a></li>
+                    </ul>
+                  </nav>
+                <button class="button-menu-toggle">Menu</button>
+              </div>
+            </header>
+    <main>
         <div class="container">
             <h1>Acerca de</h1>
             <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y 
@@ -27,7 +30,13 @@
                 <img class="Imagen3" src="Bernese Mountain Perro.jpg" alt="Bernese Mountain, el gran y poderoso granjero" />
             </div>
         </div>
+        <div class=”greeting”>
+            <p>Cual es tu perro favorito?</p>
+        </div>
+    </main>
+    <footer>
         <h3>Hasta la proxima</h3>
+    </footer>
         <script src="script.js"></script>
     </body>
 </html>
